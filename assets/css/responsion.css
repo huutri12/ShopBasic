@@ -1,0 +1,110 @@
+
+
+#checkbox-navbar:checked ~ .navbar-list{
+        display: block;
+}
+#checkbox-navbar:checked ~ .overlay{
+    display: block;
+}
+/* mobi */
+@media (max-width:739px) {
+    .icon-navbar{
+        display: block;
+    }
+    .navbar-list{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;                
+        display: block;
+        background-color:#eee;
+        display:none;        
+    }
+    .heading-section-text1,
+    .heading-section-text2{
+        font-size:3rem;
+    }
+
+    .navbar-item{
+        padding: 1.5rem;
+        margin: 1.5rem; 
+        background-color:#fff;    
+    }
+
+    .no-cart{       
+        right: 1rem;
+        background-color: #fff;
+    }
+    .slide-content{
+        top: 30%;
+        max-width:40rem;
+        margin-left: 1rem;
+        text-align: unset;
+    }
+    .slide-title{
+        font-size:3.5em;
+        line-height: 1.5; 
+        
+    }
+    .slide-slogan{
+        font-size:2.4rem;
+        line-height: 1.5; 
+        
+    }
+    .slide-desc{
+        width: 40rem;
+        line-height: 1.5;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        text-align: unset;
+        line-height: 1.5; 
+    }
+    #iconPay{
+        margin: 1rem 0;
+    }
+
+    .about-content{
+        margin: 0 1rem;
+    }
+
+    .product__icon{
+        bottom: 11.5rem;
+        width: 100%;
+    }  
+    .product-btn {      
+        width: 283px;     
+    }
+
+    .product-icon-link {        
+        width: 21rem;
+    }   
+    #footer{
+        margin: 0 1rem;
+    } 
+}
+/* ipab */
+@media (min-width:740px) and (max-width:1023px) {
+
+    .navbar-item-link {        
+        padding: 0px 1rem;
+    }
+    .header-icon-link{
+        font-size: 2.2rem;
+    }
+
+    .no-cart{ 
+        right: 5rem;
+        width: 90%;
+    }
+    .product__icon{
+        bottom: 11.5rem;
+        width: 100%;
+    }
+    .product-btn {      
+        width: 283px;     
+    }
+
+    .product-icon-link {        
+        width: 21rem;
+    }    
+}
